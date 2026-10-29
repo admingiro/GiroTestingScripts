@@ -1,0 +1,2081 @@
+Control Identifiers:
+
+TFCatRegistrosPatronales - 'Catálogo de Registros Patronales'    (L490, T298, R2070, B1418)
+['TFCatRegistrosPatronales', 'Catálogo de Registros Patronales', 'Catálogo de Registros PatronalesTFCatRegistrosPatronales']
+child_window(title="Catálogo de Registros Patronales", class_name="TFCatRegistrosPatronales")
+   | 
+   | Toolbar - ''    (L506, T360, R2054, B404)
+   | ['ToolbarEdición', 'Toolbar', 'ToolbarRegistro', 'ToolbarArchivo', 'Toolbar0', 'Toolbar1']
+   | child_window(class_name="TToolBar")
+   | 
+   | Toolbar - ''    (L506, T404, R2054, B474)
+   | ['Toolbar2']
+   | child_window(class_name="TToolBar")
+   |    | 
+   |    | TBitBtn - ''    (L1352, T404, R1424, B474)
+   |    | ['TBitBtn', 'TBitBtn0', 'TBitBtn1']
+   |    | child_window(class_name="TBitBtn")
+   |    | 
+   |    | TBitBtn - ''    (L1280, T404, R1352, B474)
+   |    | ['TBitBtn2']
+   |    | child_window(class_name="TBitBtn")
+   |    | 
+   |    | TBitBtn - ''    (L1208, T404, R1280, B474)
+   |    | ['TBitBtn3']
+   |    | child_window(class_name="TBitBtn")
+   |    | 
+   |    | TBitBtn - ''    (L1136, T404, R1208, B474)
+   |    | ['TBitBtn4']
+   |    | child_window(class_name="TBitBtn")
+   |    | 
+   |    | TNavegador - ''    (L506, T404, R1136, B474)
+   |    | ['TNavegador']
+   |    | child_window(class_name="TNavegador")
+   | 
+   | TBitBtn - ''    (L1352, T404, R1424, B474)
+   | ['TBitBtn', 'TBitBtn0', 'TBitBtn1']
+   | child_window(class_name="TBitBtn")
+   | 
+   | TBitBtn - ''    (L1280, T404, R1352, B474)
+   | ['TBitBtn2']
+   | child_window(class_name="TBitBtn")
+   | 
+   | TBitBtn - ''    (L1208, T404, R1280, B474)
+   | ['TBitBtn3']
+   | child_window(class_name="TBitBtn")
+   | 
+   | TBitBtn - ''    (L1136, T404, R1208, B474)
+   | ['TBitBtn4']
+   | child_window(class_name="TBitBtn")
+   | 
+   | TNavegador - ''    (L506, T404, R1136, B474)
+   | ['TNavegador']
+   | child_window(class_name="TNavegador")
+   | 
+   | TPageControl - ''    (L522, T488, R2042, B1384)
+   | ['TPageControl', 'Clave :TPageControl']
+   | child_window(class_name="TPageControl")
+   |    | 
+   |    | TTabSheet - '&2. Edición'    (L530, T536, R2034, B1376)
+   |    | ['TTabSheet', '&2. EdiciónTTabSheet', '&2. Edición', 'TTabSheet0', 'TTabSheet1']
+   |    | child_window(title="&2. Edición", class_name="TTabSheet")
+   |    |    | 
+   |    |    | Static - ''    (L530, T536, R2028, B1374)
+   |    |    | ['Clave :Static', 'Static', 'Static0', 'Static1', 'Clave :Static0', 'Clave :Static1']
+   |    |    | child_window(class_name="TPanel")
+   |    |    |    | 
+   |    |    |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    |    |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    |    |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    |    |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    |    |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    |    |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    |    |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    |    |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    |    |    | child_window(class_name="TCampoStr")
+   |    |    |    | 
+   |    |    |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    |    |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    |    |    | child_window(class_name="TCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    |    |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    |    |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    |    |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    |    |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    |    |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    |    |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    |    |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    |    |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    |    |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    |    |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    |    |    | child_window(class_name="TCampoStr")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    |    |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    |    |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    |    |    | child_window(title="Clase :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    |    |    | ['RT :', 'RT :Static', 'Static8']
+   |    |    |    | child_window(title="RT :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    |    |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    |    |    | child_window(title="Calle :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    |    |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    |    |    | ['Número :Static', 'Número :', 'Static10']
+   |    |    |    | child_window(title="Número :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    |    |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    |    |    | ['Int :', 'Int :Static', 'Static11']
+   |    |    |    | child_window(title="Int :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    |    |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    |    |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    |    |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    |    |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    |    |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    |    |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    |    |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    |    |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    |    |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    |    |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    |    |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    |    |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    |    |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    |    |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    |    |    | child_window(title="Estado :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    |    |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    |    |    | child_window(class_name="TDBCampoComb")
+   |    |    |    | 
+   |    |    |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    |    |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    |    |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    |    |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    |    |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    |    |    | child_window(title="Fax :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    |    |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    |    |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    |    |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    |    |    | 
+   |    |    |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    |    |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    |    |    | child_window(class_name="TDBCampoComb")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    |    |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    |    |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    |    |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    |    |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    |    |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    |    |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    |    |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    |    |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    |    |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    |    |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    |    |    | child_window(title="Representante :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    |    |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    |    |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    |    |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    |    |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    |    |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    |    |    | child_window(title="Clave :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    |    | child_window(title="Clase :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    |    | ['RT :', 'RT :Static', 'Static8']
+   |    |    | child_window(title="RT :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    |    | child_window(title="Calle :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    |    | ['Número :Static', 'Número :', 'Static10']
+   |    |    | child_window(title="Número :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    |    | ['Int :', 'Int :Static', 'Static11']
+   |    |    | child_window(title="Int :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    |    | child_window(title="Estado :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    |    | child_window(title="Fax :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    |    | child_window(title="Representante :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    |    | child_window(title="Clave :", class_name="TStaticText")
+   |    | 
+   |    | Static - ''    (L530, T536, R2028, B1374)
+   |    | ['Clave :Static', 'Static', 'Static0', 'Static1', 'Clave :Static0', 'Clave :Static1']
+   |    | child_window(class_name="TPanel")
+   |    |    | 
+   |    |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    |    | child_window(title="Clase :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    |    | ['RT :', 'RT :Static', 'Static8']
+   |    |    | child_window(title="RT :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    |    | child_window(title="Calle :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    |    | ['Número :Static', 'Número :', 'Static10']
+   |    |    | child_window(title="Número :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    |    | ['Int :', 'Int :Static', 'Static11']
+   |    |    | child_window(title="Int :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    |    | child_window(title="Estado :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    |    | child_window(title="Fax :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    |    | child_window(title="Representante :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    |    | child_window(title="Clave :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    | child_window(title="Clase :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    | ['RT :', 'RT :Static', 'Static8']
+   |    | child_window(title="RT :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    | child_window(title="Calle :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    | ['Número :Static', 'Número :', 'Static10']
+   |    | child_window(title="Número :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    | ['Int :', 'Int :Static', 'Static11']
+   |    | child_window(title="Int :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    | child_window(title="Estado :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    | child_window(title="Fax :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    | 
+   |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    | child_window(title="Representante :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    | child_window(title="Clave :", class_name="TStaticText")
+   |    | 
+   |    | TTabSheet - '&1. Catálogo'    (L530, T536, R2034, B1376)
+   |    | ['TTabSheet2', '&1. CatálogoTTabSheet', '&1. Catálogo']
+   |    | child_window(title="&1. Catálogo", class_name="TTabSheet")
+   |    |    | 
+   |    |    | Static - ''    (L530, T536, R2028, B1328)
+   |    |    | ['Clave :Static3', 'Static25']
+   |    |    | child_window(class_name="TPanel")
+   |    |    |    | 
+   |    |    |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    |    |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    |    |    | child_window(class_name="TDBLista")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    |    |    | ['Edit', 'Nombre :Edit']
+   |    |    |    | child_window(class_name="TEdit")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    |    |    | ['Clave :ComboBox', 'ComboBox']
+   |    |    |    | child_window(title="Clave", class_name="TComboBox")
+   |    |    | 
+   |    |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    |    | child_window(class_name="TDBLista")
+   |    |    | 
+   |    |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    |    | ['Edit', 'Nombre :Edit']
+   |    |    | child_window(class_name="TEdit")
+   |    |    | 
+   |    |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    |    | ['Clave :ComboBox', 'ComboBox']
+   |    |    | child_window(title="Clave", class_name="TComboBox")
+   |    |    | 
+   |    |    | StatusBar - 'Total de Registros :   17'    (L530, T1328, R2034, B1376)
+   |    |    | ['StatusBar', 'Total de Registros :   17', 'Total de Registros :   17StatusBar']
+   |    |    | child_window(title="Total de Registros :   17", class_name="TStatusBar")
+   |    | 
+   |    | Static - ''    (L530, T536, R2028, B1328)
+   |    | ['Clave :Static3', 'Static25']
+   |    | child_window(class_name="TPanel")
+   |    |    | 
+   |    |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    |    | child_window(class_name="TDBLista")
+   |    |    | 
+   |    |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    |    | ['Edit', 'Nombre :Edit']
+   |    |    | child_window(class_name="TEdit")
+   |    |    | 
+   |    |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    |    | ['Clave :ComboBox', 'ComboBox']
+   |    |    | child_window(title="Clave", class_name="TComboBox")
+   |    | 
+   |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    | child_window(class_name="TDBLista")
+   |    | 
+   |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    | ['Edit', 'Nombre :Edit']
+   |    | child_window(class_name="TEdit")
+   |    | 
+   |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    | ['Clave :ComboBox', 'ComboBox']
+   |    | child_window(title="Clave", class_name="TComboBox")
+   |    | 
+   |    | StatusBar - 'Total de Registros :   17'    (L530, T1328, R2034, B1376)
+   |    | ['StatusBar', 'Total de Registros :   17', 'Total de Registros :   17StatusBar']
+   |    | child_window(title="Total de Registros :   17", class_name="TStatusBar")
+   |    | 
+   |    | TTabSheet - '&3. Extras'    (L530, T536, R2034, B1376)
+   |    | ['TTabSheet3', '&3. Extras', '&3. ExtrasTTabSheet']
+   |    | child_window(title="&3. Extras", class_name="TTabSheet")
+   |    |    | 
+   |    |    | TScrollBox - ''    (L530, T536, R2028, B1374)
+   |    |    | ['TScrollBox', 'Clave :TScrollBox']
+   |    |    | child_window(class_name="TScrollBox")
+   |    |    |    | 
+   |    |    |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    |    |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    |    |    | child_window(title="Cia :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    |    |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    |    |    | child_window(class_name="TDBCampoComb")
+   |    |    |    | 
+   |    |    |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    |    |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    |    |    | child_window(title="Curp :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    |    |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    |    |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    |    |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    |    |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    |    | 
+   |    |    |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    |    |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    |    |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    |    |    | 
+   |    |    |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    |    |    | ['TDBCampoStr23']
+   |    |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    |    | child_window(title="Cia :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    |    | child_window(title="Curp :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    |    | ['TDBCampoStr23']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - ''    (L530, T536, R2028, B1374)
+   |    |    | ['Clave :Static4', 'Static30']
+   |    |    | child_window(class_name="TPanel")
+   |    | 
+   |    | TScrollBox - ''    (L530, T536, R2028, B1374)
+   |    | ['TScrollBox', 'Clave :TScrollBox']
+   |    | child_window(class_name="TScrollBox")
+   |    |    | 
+   |    |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    |    | child_window(title="Cia :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    |    | child_window(title="Curp :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    |    | ['TDBCampoStr23']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    | child_window(title="Cia :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    | child_window(title="Curp :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    | ['TDBCampoStr23']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - ''    (L530, T536, R2028, B1374)
+   |    | ['Clave :Static4', 'Static30']
+   |    | child_window(class_name="TPanel")
+   | 
+   | TTabSheet - '&2. Edición'    (L530, T536, R2034, B1376)
+   | ['TTabSheet', '&2. EdiciónTTabSheet', '&2. Edición', 'TTabSheet0', 'TTabSheet1']
+   | child_window(title="&2. Edición", class_name="TTabSheet")
+   |    | 
+   |    | Static - ''    (L530, T536, R2028, B1374)
+   |    | ['Clave :Static', 'Static', 'Static0', 'Static1', 'Clave :Static0', 'Clave :Static1']
+   |    | child_window(class_name="TPanel")
+   |    |    | 
+   |    |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    |    | child_window(class_name="TCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    |    | child_window(title="Clase :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    |    | ['RT :', 'RT :Static', 'Static8']
+   |    |    | child_window(title="RT :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    |    | child_window(title="Calle :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    |    | ['Número :Static', 'Número :', 'Static10']
+   |    |    | child_window(title="Número :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    |    | ['Int :', 'Int :Static', 'Static11']
+   |    |    | child_window(title="Int :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    |    | child_window(title="Estado :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    |    | child_window(title="Fax :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    |    | child_window(title="Representante :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    |    | 
+   |    |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    |    | child_window(title="Clave :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    | child_window(title="Clase :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    | ['RT :', 'RT :Static', 'Static8']
+   |    | child_window(title="RT :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    | child_window(title="Calle :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    | ['Número :Static', 'Número :', 'Static10']
+   |    | child_window(title="Número :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    | ['Int :', 'Int :Static', 'Static11']
+   |    | child_window(title="Int :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    | child_window(title="Estado :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    | child_window(title="Fax :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    | 
+   |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    | child_window(title="Representante :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    | child_window(title="Clave :", class_name="TStaticText")
+   | 
+   | Static - ''    (L530, T536, R2028, B1374)
+   | ['Clave :Static', 'Static', 'Static0', 'Static1', 'Clave :Static0', 'Clave :Static1']
+   | child_window(class_name="TPanel")
+   |    | 
+   |    | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   |    | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   |    | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   |    | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   |    | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   |    | child_window(title="Origen Recurso :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   |    | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T930, R1968, B972)
+   |    | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T806, R1968, B848)
+   |    | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   |    | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   |    | child_window(title="Ciudad :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   |    | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   |    | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   |    | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   |    | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   |    | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   |    | child_window(title="R.F.C. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T746, R986, B788)
+   |    | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TCampoStr - ''    (L1384, T868, R1968, B910)
+   |    | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   |    | child_window(class_name="TCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   |    | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   |    | ['Clase :', 'Clase :Static', 'Static7']
+   |    | child_window(title="Clase :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'RT :'    (L590, T936, R638, B970)
+   |    | ['RT :', 'RT :Static', 'Static8']
+   |    | child_window(title="RT :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   |    | ['Static9', 'Calle :Static', 'Calle :']
+   |    | child_window(title="Calle :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   |    | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   |    | ['Número :Static', 'Número :', 'Static10']
+   |    | child_window(title="Número :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   |    | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   |    | ['Int :', 'Int :Static', 'Static11']
+   |    | child_window(title="Int :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   |    | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   |    | ['Colonia :', 'Static12', 'Colonia :Static']
+   |    | child_window(title="Colonia :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   |    | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   |    | ['C. P. :Static', 'Static13', 'C. P. :']
+   |    | child_window(title="C. P. :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   |    | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   |    | ['Delegación :Static', 'Static14', 'Delegación :']
+   |    | child_window(title="Delegación :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   |    | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   |    | ['Municipio :Static', 'Static15', 'Municipio :']
+   |    | child_window(title="Municipio :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   |    | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   |    | ['Estado :Static', 'Static16', 'Estado :']
+   |    | child_window(title="Estado :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   |    | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   |    | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   |    | child_window(title="Teléfono :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   |    | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   |    | ['Fax :Static', 'Static18', 'Fax :']
+   |    | child_window(title="Fax :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   |    | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   |    | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   |    | child_window(title="0.00000", class_name="TDBCampoNum")
+   |    | 
+   |    | TDBCampoComb - ''    (L778, T868, R986, B910)
+   |    | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T806, R986, B848)
+   |    | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   |    | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T682, R986, B724)
+   |    | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   |    | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | TDBCampoStr - ''    (L752, T620, R986, B662)
+   |    | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   |    | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   |    | child_window(title="Zona Económica :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   |    | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   |    | child_window(title="Guía Magnética :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   |    | ['Representante :', 'Representante :Static', 'Static21']
+   |    | child_window(title="Representante :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   |    | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   |    | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   |    | ['Nombre :Static', 'Static23', 'Nombre :']
+   |    | child_window(title="Nombre :", class_name="TStaticText")
+   |    | 
+   |    | Static - 'Clave :'    (L590, T626, R666, B660)
+   |    | ['Clave :', 'Clave :Static2', 'Static24']
+   |    | child_window(title="Clave :", class_name="TStaticText")
+   | 
+   | Static - 'Nom. Fiscal. :'    (L1004, T690, R1142, B724)
+   | ['Nom. Fiscal. :Static', 'Nom. Fiscal. :', 'Static2']
+   | child_window(title="Nom. Fiscal. :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1174, T682, R1968, B724)
+   | ['Nom. Fiscal. :TDBCampoStr', 'TDBCampoStr', 'TDBCampoStr0', 'TDBCampoStr1']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Origen Recurso :'    (L1004, T936, R1174, B970)
+   | ['Origen Recurso :Static', 'Origen Recurso :', 'Static3']
+   | child_window(title="Origen Recurso :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1174, T930, R1332, B972)
+   | ['Origen Recurso :TDBCampoStr', 'TDBCampoStr2']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TCampoStr - ''    (L1384, T930, R1968, B972)
+   | ['TCampoStr', 'Origen Recurso :TCampoStr', 'TCampoStr0', 'TCampoStr1']
+   | child_window(class_name="TCampoStr")
+   | 
+   | TCampoStr - ''    (L1384, T806, R1968, B848)
+   | ['TCampoStr2', 'Régimen Fiscal :TCampoStr', 'Régimen Fiscal :TCampoStr0', 'Régimen Fiscal :TCampoStr1']
+   | child_window(class_name="TCampoStr")
+   | 
+   | Static - 'Ciudad :'    (L590, T1240, R678, B1274)
+   | ['Ciudad :', 'Ciudad :Static', 'Static4']
+   | child_window(title="Ciudad :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L752, T1234, R1412, B1276)
+   | ['Ciudad :TDBCampoStr', 'TDBCampoStr3']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Régimen Fiscal :'    (L1004, T812, R1166, B846)
+   | ['Régimen Fiscal :Static', 'Régimen Fiscal :', 'Static5']
+   | child_window(title="Régimen Fiscal :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1174, T806, R1332, B848)
+   | ['Régimen Fiscal :TDBCampoStr', 'TDBCampoStr4', 'Régimen Fiscal :TDBCampoStr0', 'Régimen Fiscal :TDBCampoStr1']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'R.F.C. :'    (L590, T752, R676, B786)
+   | ['R.F.C. :', 'R.F.C. :Static', 'Static6']
+   | child_window(title="R.F.C. :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L752, T746, R986, B788)
+   | ['R.F.C. :TDBCampoStr', 'Reg. Patronal :TDBCampoStr', 'TDBCampoStr5', 'Reg. Patronal :TDBCampoStr0', 'Reg. Patronal :TDBCampoStr1']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TCampoStr - ''    (L1384, T868, R1968, B910)
+   | ['TCampoStr3', 'Régimen Fiscal :TCampoStr2']
+   | child_window(class_name="TCampoStr")
+   | 
+   | TDBCampoStr - ''    (L1174, T868, R1332, B910)
+   | ['Régimen Fiscal :TDBCampoStr2', 'TDBCampoStr6']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Clase :'    (L1004, T874, R1078, B908)
+   | ['Clase :', 'Clase :Static', 'Static7']
+   | child_window(title="Clase :", class_name="TStaticText")
+   | 
+   | Static - 'RT :'    (L590, T936, R638, B970)
+   | ['RT :', 'RT :Static', 'Static8']
+   | child_window(title="RT :", class_name="TStaticText")
+   | 
+   | Static - 'Calle :'    (L590, T1056, R658, B1090)
+   | ['Static9', 'Calle :Static', 'Calle :']
+   | child_window(title="Calle :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L752, T1050, R1412, B1092)
+   | ['TDBCampoStr7', 'Calle :TDBCampoStr']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Número :'    (L1430, T1056, R1526, B1090)
+   | ['Número :Static', 'Número :', 'Static10']
+   | child_window(title="Número :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1558, T1050, R1686, B1092)
+   | ['TDBCampoStr8', 'Número :TDBCampoStr']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Int :'    (L1762, T1056, R1812, B1090)
+   | ['Int :', 'Int :Static', 'Static11']
+   | child_window(title="Int :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1840, T1050, R1968, B1092)
+   | ['Int :TDBCampoStr', 'TDBCampoStr9']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Colonia :'    (L590, T1118, R682, B1152)
+   | ['Colonia :', 'Static12', 'Colonia :Static']
+   | child_window(title="Colonia :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L752, T1112, R1194, B1154)
+   | ['TDBCampoStr10', 'Colonia :TDBCampoStr']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'C. P. :'    (L1206, T1118, R1276, B1152)
+   | ['C. P. :Static', 'Static13', 'C. P. :']
+   | child_window(title="C. P. :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1290, T1112, R1412, B1154)
+   | ['C. P. :TDBCampoStr', 'TDBCampoStr11']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Delegación :'    (L1430, T1118, R1556, B1152)
+   | ['Delegación :Static', 'Static14', 'Delegación :']
+   | child_window(title="Delegación :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1558, T1112, R1968, B1154)
+   | ['Delegación :TDBCampoStr', 'TDBCampoStr12']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Municipio :'    (L590, T1180, R698, B1214)
+   | ['Municipio :Static', 'Static15', 'Municipio :']
+   | child_window(title="Municipio :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L752, T1174, R1412, B1216)
+   | ['Municipio :TDBCampoStr', 'TDBCampoStr13']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Estado :'    (L1430, T1182, R1518, B1216)
+   | ['Estado :Static', 'Static16', 'Estado :']
+   | child_window(title="Estado :", class_name="TStaticText")
+   | 
+   | TDBCampoComb - ''    (L1558, T1174, R1968, B1216)
+   | ['Estado :TDBCampoComb', 'TDBCampoComb', 'TDBCampoComb0', 'TDBCampoComb1']
+   | child_window(class_name="TDBCampoComb")
+   | 
+   | Static - 'Teléfono :'    (L590, T994, R696, B1028)
+   | ['Teléfono :', 'Static17', 'Teléfono :Static']
+   | child_window(title="Teléfono :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L752, T988, R1412, B1030)
+   | ['Teléfono :TDBCampoStr', 'TDBCampoStr14']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Fax :'    (L1430, T1240, R1488, B1274)
+   | ['Fax :Static', 'Static18', 'Fax :']
+   | child_window(title="Fax :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L1558, T1234, R1968, B1276)
+   | ['TDBCampoStr15', 'Fax :TDBCampoStr']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TDBCampoNum - '0.00000'    (L752, T930, R986, B972)
+   | ['TDBCampoNum', '0.00000TDBCampoNum', '0.00000']
+   | child_window(title="0.00000", class_name="TDBCampoNum")
+   | 
+   | TDBCampoComb - ''    (L778, T868, R986, B910)
+   | ['Zona Económica :TDBCampoComb', 'TDBCampoComb2']
+   | child_window(class_name="TDBCampoComb")
+   | 
+   | TDBCampoStr - ''    (L752, T806, R986, B848)
+   | ['Guía Magnética :TDBCampoStr', 'TDBCampoStr16']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TDBCampoStr - ''    (L1174, T746, R1968, B788)
+   | ['Representante :TDBCampoStr', 'TDBCampoStr17']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TDBCampoStr - ''    (L752, T682, R986, B724)
+   | ['Reg. Patronal :TDBCampoStr2', 'TDBCampoStr18']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TDBCampoStr - ''    (L1174, T620, R1968, B662)
+   | ['Nombre :TDBCampoStr', 'TDBCampoStr19', 'Nombre :TDBCampoStr0', 'Nombre :TDBCampoStr1']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | TDBCampoStr - ''    (L752, T620, R986, B662)
+   | ['TDBCampoStr20', 'Clave :TDBCampoStr']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Zona Económica :'    (L590, T874, R766, B908)
+   | ['Zona Económica :Static', 'Static19', 'Zona Económica :']
+   | child_window(title="Zona Económica :", class_name="TStaticText")
+   | 
+   | Static - 'Guía Magnética :'    (L590, T812, R758, B846)
+   | ['Guía Magnética :', 'Static20', 'Guía Magnética :Static']
+   | child_window(title="Guía Magnética :", class_name="TStaticText")
+   | 
+   | Static - 'Representante :'    (L1004, T752, R1170, B786)
+   | ['Representante :', 'Representante :Static', 'Static21']
+   | child_window(title="Representante :", class_name="TStaticText")
+   | 
+   | Static - 'Reg. Patronal :'    (L590, T690, R744, B724)
+   | ['Reg. Patronal :', 'Reg. Patronal :Static', 'Static22']
+   | child_window(title="Reg. Patronal :", class_name="TStaticText")
+   | 
+   | Static - 'Nombre :'    (L1004, T626, R1100, B660)
+   | ['Nombre :Static', 'Static23', 'Nombre :']
+   | child_window(title="Nombre :", class_name="TStaticText")
+   | 
+   | Static - 'Clave :'    (L590, T626, R666, B660)
+   | ['Clave :', 'Clave :Static2', 'Static24']
+   | child_window(title="Clave :", class_name="TStaticText")
+   | 
+   | TTabSheet - '&1. Catálogo'    (L530, T536, R2034, B1376)
+   | ['TTabSheet2', '&1. CatálogoTTabSheet', '&1. Catálogo']
+   | child_window(title="&1. Catálogo", class_name="TTabSheet")
+   |    | 
+   |    | Static - ''    (L530, T536, R2028, B1328)
+   |    | ['Clave :Static3', 'Static25']
+   |    | child_window(class_name="TPanel")
+   |    |    | 
+   |    |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    |    | child_window(class_name="TDBLista")
+   |    |    | 
+   |    |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    |    | ['Edit', 'Nombre :Edit']
+   |    |    | child_window(class_name="TEdit")
+   |    |    | 
+   |    |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    |    | ['Clave :ComboBox', 'ComboBox']
+   |    |    | child_window(title="Clave", class_name="TComboBox")
+   |    | 
+   |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    | child_window(class_name="TDBLista")
+   |    | 
+   |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    | ['Edit', 'Nombre :Edit']
+   |    | child_window(class_name="TEdit")
+   |    | 
+   |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    | ['Clave :ComboBox', 'ComboBox']
+   |    | child_window(title="Clave", class_name="TComboBox")
+   |    | 
+   |    | StatusBar - 'Total de Registros :   17'    (L530, T1328, R2034, B1376)
+   |    | ['StatusBar', 'Total de Registros :   17', 'Total de Registros :   17StatusBar']
+   |    | child_window(title="Total de Registros :   17", class_name="TStatusBar")
+   | 
+   | Static - ''    (L530, T536, R2028, B1328)
+   | ['Clave :Static3', 'Static25']
+   | child_window(class_name="TPanel")
+   |    | 
+   |    | TDBLista - ''    (L562, T702, R1988, B1310)
+   |    | ['Reg. Patronal :TDBLista', 'TDBLista']
+   |    | child_window(class_name="TDBLista")
+   |    | 
+   |    | Edit - ''    (L1040, T620, R1956, B662)
+   |    | ['Edit', 'Nombre :Edit']
+   |    | child_window(class_name="TEdit")
+   |    | 
+   |    | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   |    | ['Clave :ComboBox', 'ComboBox']
+   |    | child_window(title="Clave", class_name="TComboBox")
+   | 
+   | TDBLista - ''    (L562, T702, R1988, B1310)
+   | ['Reg. Patronal :TDBLista', 'TDBLista']
+   | child_window(class_name="TDBLista")
+   | 
+   | Edit - ''    (L1040, T620, R1956, B662)
+   | ['Edit', 'Nombre :Edit']
+   | child_window(class_name="TEdit")
+   | 
+   | ComboBox - 'Clave'    (L598, T620, R974, B662)
+   | ['Clave :ComboBox', 'ComboBox']
+   | child_window(title="Clave", class_name="TComboBox")
+   | 
+   | StatusBar - 'Total de Registros :   17'    (L530, T1328, R2034, B1376)
+   | ['StatusBar', 'Total de Registros :   17', 'Total de Registros :   17StatusBar']
+   | child_window(title="Total de Registros :   17", class_name="TStatusBar")
+   | 
+   | TTabSheet - '&3. Extras'    (L530, T536, R2034, B1376)
+   | ['TTabSheet3', '&3. Extras', '&3. ExtrasTTabSheet']
+   | child_window(title="&3. Extras", class_name="TTabSheet")
+   |    | 
+   |    | TScrollBox - ''    (L530, T536, R2028, B1374)
+   |    | ['TScrollBox', 'Clave :TScrollBox']
+   |    | child_window(class_name="TScrollBox")
+   |    |    | 
+   |    |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    |    | child_window(title="Cia :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    |    | child_window(class_name="TDBCampoComb")
+   |    |    | 
+   |    |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    |    | child_window(title="Curp :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    |    | 
+   |    |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    |    | 
+   |    |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    |    | ['TDBCampoStr23']
+   |    |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    | child_window(title="Cia :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    | child_window(title="Curp :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    | ['TDBCampoStr23']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - ''    (L530, T536, R2028, B1374)
+   |    | ['Clave :Static4', 'Static30']
+   |    | child_window(class_name="TPanel")
+   | 
+   | TScrollBox - ''    (L530, T536, R2028, B1374)
+   | ['TScrollBox', 'Clave :TScrollBox']
+   | child_window(class_name="TScrollBox")
+   |    | 
+   |    | Static - 'Cia :'    (L584, T744, R864, B786)
+   |    | ['Cia :', 'Static26', 'Cia :Static']
+   |    | child_window(title="Cia :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   |    | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   |    | child_window(class_name="TDBCampoComb")
+   |    | 
+   |    | Static - 'Curp :'    (L584, T686, R864, B728)
+   |    | ['Curp :Static', 'Curp :', 'Static27']
+   |    | child_window(title="Curp :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   |    | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   |    | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   |    | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   |    | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   |    | child_window(class_name="TDBCampoStr")
+   |    | 
+   |    | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   |    | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   |    | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   |    | 
+   |    | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   |    | ['TDBCampoStr23']
+   |    | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Cia :'    (L584, T744, R864, B786)
+   | ['Cia :', 'Static26', 'Cia :Static']
+   | child_window(title="Cia :", class_name="TStaticText")
+   | 
+   | TDBCampoComb - ''    (L864, T744, R1164, B786)
+   | ['Nom. Fiscal. :TDBCampoComb', 'TDBCampoComb3']
+   | child_window(class_name="TDBCampoComb")
+   | 
+   | Static - 'Curp :'    (L584, T686, R864, B728)
+   | ['Curp :Static', 'Curp :', 'Static27']
+   | child_window(title="Curp :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L864, T686, R1164, B728)
+   | ['Reg. Patronal :TDBCampoStr3', 'TDBCampoStr21']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Curprepresentantelegal :'    (L584, T628, R864, B670)
+   | ['Curprepresentantelegal :Static', 'Curprepresentantelegal :', 'Static28']
+   | child_window(title="Curprepresentantelegal :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L864, T628, R1164, B670)
+   | ['Nombre :TDBCampoStr2', 'TDBCampoStr22']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - 'Clabe_interbancaria :'    (L584, T570, R864, B612)
+   | ['Clabe_interbancaria :Static', 'Static29', 'Clabe_interbancaria :']
+   | child_window(title="Clabe_interbancaria :", class_name="TStaticText")
+   | 
+   | TDBCampoStr - ''    (L864, T570, R1164, B612)
+   | ['TDBCampoStr23']
+   | child_window(class_name="TDBCampoStr")
+   | 
+   | Static - ''    (L530, T536, R2028, B1374)
+   | ['Clave :Static4', 'Static30']
+   | child_window(class_name="TPanel")

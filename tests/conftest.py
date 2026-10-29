@@ -39,9 +39,9 @@ def app_dialog():
 def log_in_giro():
         login_window = Desktop(backend="win32").window(title_re="^Giro v.*", class_name="TFLogIn")
 
-        ui.enter_text(login_window, 2, giro_rh_password+now.get_actual_date())
-        ui.enter_text(login_window, 4, giro_rh_username)
-        ui.enter_text(login_window, 3, giro_rh_database)
+        ui.enter_text(login_window, 2, giro_rh_password+now.get_actual_date(), "TCampoStr")
+        ui.enter_text(login_window, 4, giro_rh_username, "TCampoStr")
+        ui.enter_text(login_window, 3, giro_rh_database, "TCampoStr")
         
         ui.click_button(login_window, "Aceptar")
         error_popup = Desktop(backend="win32").window(title="Aviso !")

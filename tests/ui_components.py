@@ -1,8 +1,32 @@
 # ui_components.py
 import time
+from pywinauto import Desktop
 
-class MenuPaths():
-    ALTAS_EMPLEADOS = ["%e","a"]
+SHORTCUTS = {
+# --- CATÁLOGOS > GENERAL ---
+    
+    "estructura_empresa": ["%c", "g", "e"],
+    "registros_patronales": ["%c", "g", "r"],
+    "sucursales": ["%c", "g", "s"],
+    "centros_costo": ["%c", "g", "c"],
+    "departamentos": ["%c", "g", "d"],
+    
+    "calendario_dias_inhabiles": ["%c", "g", "a"], 
+    "tipos_empleados": ["%c", "g", "t"],
+    "puestos": ["%c", "g", "p"],
+    
+    "salarios_minimos": ["%c", "g", "l"], # 'l' en Salarios
+    "tipos_ausentismo": ["%c", "g", "o"], # 'o' en Tipos
+    "modificaciones_salario": ["%c", "g", "m"],
+    "causas_baja": ["%c", "g", "u"], # 'u' en Causas
+
+    "turnos": ["%c", "g", "t", "{ENTER}"], # Comparte 'T' con Tipos de Empleados
+    "esquemas_rotacion": ["%c", "g", "e", "e", "{ENTER}"], # Comparte 'E' con Estructura
+    "turnos_rotativos": ["%c", "g", "v"], # 'v' en Rotativos
+    "calendario_turnos_rotativos": ["%c", "g", "c", "c", "{ENTER}"], # Comparte 'C' con Centros de Costo
+    "turnos_inteligentes": ["%c", "g", "i"]
+    
+}
 
 def click_button(window, button_title):
     """Locates a standard GIRO RH button by its title and clicks it."""
@@ -10,11 +34,11 @@ def click_button(window, button_title):
     btn.wait("visible", timeout=5)
     btn.click_input()
     
-def enter_text(window, target_index, text_to_type):
+def enter_text(window, target_index, text_to_type, target_class):
     """Locates a text box by its ID and types the specified text."""
     # Assuming text boxes in Delphi use 'TCampoStr' or 'Edit'
-    txt_box = window.child_window(found_index=target_index, class_name="TCampoStr")
-    txt_box.wait("visible", timeout=5)
+    txt_box = window.child_window(found_index=target_index, class_name=target_class)
+    txt_box.wait("visible", timeout=3)
     txt_box.set_focus()
     txt_box.type_keys(f"^a{{BACKSPACE}}{text_to_type}", with_spaces=True)
 
@@ -30,8 +54,8 @@ def navigate_menu(window, key_sequence, target_title):
     for key in key_sequence:
         window.type_keys(key)
         time.sleep(0.5)
-    new_window = Desktop(backend="win32").window(title_re=target_title)
-    new_window.wait("visible", timeout=3)
+    new_window = window.child_window(title_re=target_title)
+    new_window.wait("visible", timeout=10)
     new_window.set_focus()
     return new_window
 
