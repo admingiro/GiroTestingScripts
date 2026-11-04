@@ -19,29 +19,17 @@ giro_rh_username = ""
 def kill_giro():
         os.system("taskkill /F /IM Giro.exe /T")
 
-def get_current_giro_window():
-        """
-        Pauses briefly, rescans the desktop for the active Giro window,
-        and returns the fresh window object.
-        """
-        time.sleep(1.5)
-        new_window = Desktop(backend="win32").window(title_re="^Giro v.*", found_index=0)
-        new_window.wait("visible", timeout=5)
-        new_window.set_focus()
-        return new_window
-
-
 def app_dialog():
-        app_dlg = get_current_giro_window()
+        app_dlg = ui.get_current_giro_window("^Giro v.*")
         app_dlg.type_keys("{ENTER}")
 
         
 def log_in_giro():
         login_window = Desktop(backend="win32").window(title_re="^Giro v.*", class_name="TFLogIn")
 
-        ui.enter_text(login_window, 2, giro_rh_password+now.get_actual_date(), "TCampoStr")
-        ui.enter_text(login_window, 4, giro_rh_username, "TCampoStr")
-        ui.enter_text(login_window, 3, giro_rh_database, "TCampoStr")
+        ui.enter_text_t(login_window, 2, giro_rh_password+now.get_actual_date(), "TCampoStr")
+        ui.enter_text_t(login_window, 4, giro_rh_username, "TCampoStr")
+        ui.enter_text_t(login_window, 3, giro_rh_database, "TCampoStr")
         
         ui.click_button(login_window, "Aceptar")
         error_popup = Desktop(backend="win32").window(title="Aviso !")
@@ -49,11 +37,10 @@ def log_in_giro():
                 error_text = error_popup.window_text()
                 error_popup.type_keys("{ENTER}")
                 pytest.exit(f"CRITICAL: Login failed.")
-        ui.verify_window_closed(login_window, timeout_seconds=3)
-
+        ui.verify_window_closed(login_window, timeout_seconds=10)
 
 def recordatorios_popup():
-        homepage_window = get_current_giro_window()
+        homepage_window = ui.get_current_giro_window("^Giro v.*")
         recordatorios_win = homepage_window.child_window(title="Recordatorios", class_name="TFRecordatorios", found_index=0)
         salir_btn = recordatorios_win.child_window(title="&Salir", class_name="TBitBtn")
         salir_btn.click_input()
@@ -83,4 +70,4 @@ def app_GIRO_RH():
 
         finally:
                 print("\n[TEARDOWN] Shutting down GIRO RH...")
-                kill_giro()
+                #kill_giro()
