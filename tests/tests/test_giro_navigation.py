@@ -4,7 +4,7 @@ import ui_components as ui
 from pages.base_mdi import BaseMDIWindow
 
 class TestGiroNavigation:
-
+    @pytest.mark.prod(reason="Actual Test Script in Prod")
     def test_homepage_navigation(self, app_GIRO_RH):
         """
         Verifies all top-level menus open and close without crashing the application.
